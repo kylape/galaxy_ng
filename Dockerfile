@@ -25,6 +25,7 @@ RUN set -ex; \
 RUN set -ex; \
     touch /var/lib/rpm/* \
     && dnf -y install \
+        git \
         gcc \
         glibc-langpack-en \
         python3-devel \
